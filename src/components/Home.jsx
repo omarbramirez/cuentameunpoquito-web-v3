@@ -27,8 +27,8 @@ const Home = () => {
             <Header setIsOpen={setIsOpen} setCurrentModuleIndex={setCurrentModuleIndex}/>
                 {/* {isOpen ? null : <Header setIsOpen={setIsOpen} setCurrentModuleIndex={setCurrentModuleIndex}/>}
                 <Menu setCurrentModuleIndex={setCurrentModuleIndex}/> */}
-            </div>
             <Footer />
+            </div>
         </div>
     )
 }
