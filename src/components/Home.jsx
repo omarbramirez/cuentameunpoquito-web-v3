@@ -1,36 +1,23 @@
-import { useState, useEffect } from "react"
-// import PlanB from '../assets/PlanB.jpg'
-import Menu from './Menu'
-import Header from './Header'
-import Footer from './Footer'
-import Welcome from './Welcome'
-import Convocatoria from './Convocatoria'
-
-
+import { useState } from 'react';
+import Footer from './bases/Footer';
+import Menu from './bases/Menu';
+import Index from './pages/Index';
+import RecursosPrensa from './pages/RecursosPrensa';
+import Convocatoria from './pages/Convocatoria';
+import Galeria from './pages/Galeria'
 const Home = () => {
-    const initialSection = localStorage.getItem('currentModuleIndex') || 0;
-    const [currentModuleIndex, setCurrentModuleIndex] = useState(parseInt(initialSection));
-    const [isOpen, setIsOpen] = useState(false)
-  
-    useEffect(() => {
-      localStorage.setItem('currentModuleIndex', currentModuleIndex.toString());
-    }, [currentModuleIndex]);
-  
+  const [page, setPage] = useState(0);
 
-    const modules = [<Welcome key={`Welcome`} className={`welcome`}/>, <Convocatoria key={`Convocatoria`}/>];
+  const modules = [<Index key={`Index`}/>, <RecursosPrensa key={`RecursosPrensa`}/>, <Convocatoria key={`Convocatoria`}/>, <Galeria key={`Galeria`}/>]
 
-    return (
-        <div className={`main`}>
-            {modules[currentModuleIndex]}
-            {/* <div className={`content ${isOpen ? "is-open" : ""}`}> */}
-            <div className={`content`}>
-            <Header setIsOpen={setIsOpen} setCurrentModuleIndex={setCurrentModuleIndex}/>
-                {/* {isOpen ? null : <Header setIsOpen={setIsOpen} setCurrentModuleIndex={setCurrentModuleIndex}/>}
-                <Menu setCurrentModuleIndex={setCurrentModuleIndex}/> */}
-            <Footer />
-            </div>
-        </div>
-    )
-}
 
-export default Home
+  return (
+    <div >
+      <Menu setPage={setPage}/>
+       {modules[page]}
+       <Footer />
+    </div>
+  );
+};
+
+export default Home;

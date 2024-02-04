@@ -4,7 +4,6 @@ const Welcome = () => {
     return (
         <>
          <div className="overlay"></div>
-            {/* <video className='background' src={Background} autoPlay loop muted/> */}
             <video
                 className='background'
                 autoPlay={true}
