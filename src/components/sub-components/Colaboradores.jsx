@@ -1,4 +1,4 @@
-import Example from '../../assets/images/Example.jpg';
+import Example from '../../assets/images/Default.jpg';
 
 const Coolaboradores = () => {
   return (

@@ -8,12 +8,13 @@ import City from '../../assets/images/City.png'
 import Papers from '../../assets/images/Papers.png'
 import PapersFront from '../../assets/images/PapersFront.png'
 
+
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const Index = () => {
   return (
     <div >
-      <Parallax pages={7.9} style={{ left: 0, top: 0 }}>
+      <Parallax pages={8} style={{ left: 0, top: 0 }}>
 
         <ParallaxLayer
           offset={0}
