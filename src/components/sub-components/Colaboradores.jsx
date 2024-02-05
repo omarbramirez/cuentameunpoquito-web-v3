@@ -6,7 +6,8 @@ const Coolaboradores = () => {
       <div className={`container`}>
 
         <h1>Talleristas</h1>
-        <ul><li>
+        <ul>
+          <li>
 
           <img src={Example} alt="profile" className={`img`} id={`sandraa`} />
         </li>

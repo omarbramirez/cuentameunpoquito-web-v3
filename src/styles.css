@@ -345,12 +345,23 @@ h3{
   background-color: #73bbe9;
 }
 #enterate {
-  height: 100vh;
+  height: 150%;
   /* background-color: #1c75bc; */
 }
 #colaboradores {
-  height: 380vh;
+  height: 1100%;
   background-color: #F8F8FF;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 /* Estilos de Convocatoria */
 .bases {
