@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Footer from './bases/Footer';
 import Menu from './bases/Menu';
 import Index from './pages/Index';
 import RecursosPrensa from './pages/RecursosPrensa';
@@ -12,10 +11,9 @@ const Home = () => {
 
 
   return (
-    <div >
+    <div>
       <Menu setPage={setPage}/>
        {modules[page]}
-       <Footer />
     </div>
   );
 };

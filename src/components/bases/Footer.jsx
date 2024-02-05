@@ -1,8 +1,8 @@
 
 
-const Footer =()=>{
+const Footer =({customization})=>{
     return( 
-            <ul className={`footer`}>
+            <ul className={`footer ${customization}`}>
             <li className="footer-link">
               <a
                 href="https://culturaquito.com"

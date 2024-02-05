@@ -1,14 +1,25 @@
 /* Estilos generales */
+@font-face {
+  font-family: 'DMSerifDisplay-Regular';
+  src: url('./assets/fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Archivo Regular", sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 .main {
   width: 100%;
-  height: 100vh;
 }
+
+
 
 .icons {
   width: 2rem;
@@ -16,7 +27,7 @@
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: auto;
   margin-bottom: 10px;
   color: white;
@@ -60,10 +71,12 @@ h1,h2,h3 {
   font-weight: bold;
 }
 h1{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 h2{
   font-size: 1.4rem;
+  font-family: "DMSerifDisplay-Regular", sans-serif;
+  font-weight: 900 ;
 }
 h3{
   font-size: 1.3rem;
@@ -74,10 +87,18 @@ h3{
   width: 100%;
   max-width: 300px;
   transition: transform 0.5s ease-in-out;
-  padding: 2rem ;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:50% 20% / 10% 40%;
+  margin: 20px 0px;
+  background-color: #ffffff;
 }
 .img:hover {
   animation: bounce 1s infinite; /* Aplica la animación al hacer hover */
+}
+
+.description{
+  color: #1c75bc;
 }
 
 @keyframes bounce {
@@ -191,6 +212,12 @@ h3{
   -ms-flex-align: center;
   align-items: center;
 }
+.footer.parallax{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
 
 .footer-link {
   margin: 20px;
@@ -199,15 +226,14 @@ h3{
 /* Estilos de Welcome */
 .background {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   -o-object-fit: cover;
   object-fit: cover;
   -webkit-object-fit: cover;
 }
 
 .content {
- 
-  height: 101vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +252,6 @@ h3{
 .content.start-content {
   position: absolute;
   width: 100%;
-  height: 101vh;
   top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,19 +336,20 @@ h3{
   align-items: center;
 }
 .container{
+  z-index: 1000;
   padding: 5rem 2rem 10rem 2rem;
 }
 
-#conocenos {
-  background-color: #7dba2b;
-}
+
 #sobreNosotros {
   background-color: #73bbe9;
 }
 #enterate {
-  background-color: #1c75bc;
+  height: 100vh;
+  /* background-color: #1c75bc; */
 }
 #colaboradores {
+  height: 380vh;
   background-color: #F8F8FF;
 }
 /* Estilos de Convocatoria */
@@ -340,4 +366,30 @@ h3{
   margin: 10px 0px 10px 0px;
   width: 100%;
  
+}
+
+/*Estilos de Colaboradores*/
+#sandraa{
+  border-radius: 47% 53% 26% 74% / 41% 30% 70% 59%;
+}
+#sandradelat{
+  border-radius: 50% 50% 67% 33% / 74% 66% 34% 26%;
+}
+#diegoc{
+  border-radius:21% 79% 66% 34% / 29% 70% 30% 71%;
+}
+#marcelar{
+  border-radius: 66% 34% 66% 34% / 29% 56% 44% 71%;
+}
+#pamelar{
+  border-radius:79% 21% 92% 8% / 26% 85% 15% 74%;
+}
+#estebanm{
+  border-radius:50% 50% 67% 33% / 74% 66% 34% 26%;
+}
+#marialuza{
+  border-radius: 47% 53% 26% 74% / 41% 30% 70% 59%;
+}
+#mattiast{
+  border-radius: 66% 34% 66% 34% / 29% 56% 44% 71%;
 }

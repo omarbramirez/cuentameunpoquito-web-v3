@@ -2,7 +2,7 @@ import Background from '../assets/Background.mp4'
 
 const Welcome = () => {
     return (
-        <>
+        <div>
          <div className="overlay"></div>
             <video
                 className='background'
@@ -14,7 +14,7 @@ const Welcome = () => {
                 src={Background}
                 type="video/mp4"
             />
-        </>
+        </div>
     )
 }
 
