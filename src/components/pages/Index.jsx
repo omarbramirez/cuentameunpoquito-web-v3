@@ -14,7 +14,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 const Index = () => {
   return (
     <div >
-      <Parallax pages={8} style={{ left: 0, top: 0 }}>
+      <Parallax pages={8} style={{ left: 0, top: 0, height: '100vh' }}>
 
         <ParallaxLayer
           offset={0}
