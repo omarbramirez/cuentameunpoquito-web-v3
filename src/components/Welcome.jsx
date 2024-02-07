@@ -2,7 +2,7 @@ import Background from '../assets/Background.mp4'
 
 const Welcome = () => {
     return (
-        <div style={{height: '100vh'}}>
+        <div>
          <div className="overlay"></div>
             <video
                 className='background'
