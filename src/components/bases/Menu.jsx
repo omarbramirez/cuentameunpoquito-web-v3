@@ -82,9 +82,9 @@ const Menu = ({ setPage }) => {
                       rel="noreferrer"><img className="icons whatsapp-icon" src={Whatsapp} alt="Whatsapp" /></a>
                   </li>
             </ul>
-          </li>
           <li>
             <Footer/>
+          </li>
           </li>
         </ul>
       </nav>
