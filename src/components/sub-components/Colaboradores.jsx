@@ -14,13 +14,13 @@ const Coolaboradores = () => {
           <li>
             <strong>Sandra Araya:</strong> Editora y escritora.
           </li>
-          <li>
+          {/* <li>
           <img src={Example} alt="profile" className={`img`} id={`sandradelat`} />
           </li>
           <li>
             <strong>Sandra de la Torre Guarderas:</strong> Poeta, editora,
             guionista y realizadora audiovisual.
-          </li>
+          </li> */}
           <li>
           <img src={Example} alt="profile" className={`img`} id={`diegoc`} />
           </li>

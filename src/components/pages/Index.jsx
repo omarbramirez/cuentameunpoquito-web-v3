@@ -13,6 +13,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const Index = () => {
   return (
+    <>
     <div style={{height: '100vh'}}>
       <Parallax pages={10} style={{ left: 0, top: 0 }}>
 
@@ -26,7 +27,7 @@ const Index = () => {
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
           }}
-        />
+          />
         <ParallaxLayer
           offset={2}
           speed={0}
@@ -75,8 +76,9 @@ const Index = () => {
           }}
         />
       </Parallax>
-      <Footer customization={'parallax'}/>
     </div>
+      <Footer/>
+            </>
   );
 };
 
