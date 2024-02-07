@@ -3,7 +3,7 @@ import Arrow from '../../assets/icons/Arrow.svg';
 import Close from '../../assets/icons/Close.svg';
 import Downarrow from '../../assets/icons/Downarrow.svg';
 import Whatsapp from '../../assets/icons/Whatsapp.svg';
-
+import Footer from '../bases/Footer';
 const Menu = ({ setPage }) => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [isOpenPressMenu, setIsOpenPressMenu] = useState(false);
@@ -82,6 +82,9 @@ const Menu = ({ setPage }) => {
                       rel="noreferrer"><img className="icons whatsapp-icon" src={Whatsapp} alt="Whatsapp" /></a>
                   </li>
             </ul>
+          </li>
+          <li>
+            <Footer/>
           </li>
         </ul>
       </nav>

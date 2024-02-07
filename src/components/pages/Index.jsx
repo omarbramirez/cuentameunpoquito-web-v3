@@ -1,5 +1,5 @@
 
-import Footer from '../bases/Footer';
+
 import Coolaboradores from '../sub-components/Colaboradores';
 import Conocenos from '../sub-components/Conocenos';
 import Enterate from '../sub-components/Enterate';
@@ -13,8 +13,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const Index = () => {
   return (
-    <>
-    <div style={{height: '100vh'}}>
+    <div>
       <Parallax pages={9.9} style={{ left: 0, top: 0 }}>
 
         <ParallaxLayer
@@ -77,8 +76,6 @@ const Index = () => {
         />
       </Parallax>
     </div>
-      <Footer/>
-            </>
   );
 };
 
