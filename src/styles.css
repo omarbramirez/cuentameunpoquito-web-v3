@@ -405,3 +405,34 @@ h3{
 #mattiast{
   border-radius: 66% 34% 66% 34% / 29% 56% 44% 71%;
 }
+
+
+/*Efecto Parallax*/
+.parallax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+}
+
+.parallax-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1; /* Asegúrate de que esté encima del contenido */
+}
+
+.content {
+  position: relative;
+  z-index: 2; /* Asegúrate de que esté encima del parallax */
+}
