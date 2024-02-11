@@ -1,5 +1,5 @@
 
-
+import Footer from '../bases/Footer';
 import Coolaboradores from '../sub-components/Colaboradores';
 import Conocenos from '../sub-components/Conocenos';
 import Enterate from '../sub-components/Enterate';
@@ -8,46 +8,50 @@ import City from '../../assets/images/City.png'
 import Papers from '../../assets/images/Papers.png'
 import PapersFront from '../../assets/images/PapersFront.png'
 
-
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-
 const Index = () => {
   return (
     <div>
-      <Parallax pages={9.9} style={{ left: 0, top: 0 }}>
 
-        <ParallaxLayer
-          offset={0}
-          speed={1}
-          factor={2.5}
+        <div
+
           style={{
             backgroundImage: `url(${City})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
+            width: '100%',
+            height: '100vh',
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            zIndex:'-1'
+
           }}
-          />
-        <ParallaxLayer
-          offset={2}
-          speed={0}
-          factor={3.5}
+          >
+          </div>
+        <div
+
           style={{
             backgroundColor: `#1c75bc`,
             height:'100%'
           }}
-        />
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          factor={3.5}
+        >
+        </div>
+        <div
           style={{
             backgroundImage: `url(${Papers})`,
-            backgroundSize: '150%',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
+            width: '100%',
+            height: '100vh',
+            position: 'absolute',
+            top: '200vh',
+            left: '0',
+            zIndex:'-1'
           }}
-        />
-<ParallaxLayer>
+        >
+        </div>
 
         <section id="conocenos" className={`section`}
         >
@@ -62,19 +66,17 @@ const Index = () => {
         <section id="colaboradores" className={`section`}>
           <Coolaboradores />
         </section>
-          </ParallaxLayer>
-                <ParallaxLayer
-          offset={2}
-          speed={0.7}
-          factor={3.5}
+                <div
+
           style={{
             backgroundImage: `url(${PapersFront})`,
             backgroundSize: '150%',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
           }}
-        />
-      </Parallax>
+        ></div>
+            <Footer/>
+
     </div>
   );
 };
