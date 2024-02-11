@@ -21,8 +21,8 @@ const Start = () => {
             {initialization ? <Home key={`Convocatoria`}/> : <Welcome key={`Welcome`} className={`welcome`}/>}
             <div className={`content start-content ${initialization ? 'is-initialized': ''}`}>
             <Header setInitialization={setInitialization} initialization={initialization}/>
-            <Startfooter initialization={initialization}/>
             </div>
+            <Startfooter initialization={initialization}/>
         </div>
     )
 }
