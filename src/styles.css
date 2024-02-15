@@ -381,29 +381,14 @@ h3{
 }
 
 /*Estilos de Colaboradores*/
-#sandraa{
-  border-radius: 47% 53% 26% 74% / 41% 30% 70% 59%;
-}
-#sandradelat{
-  border-radius: 50% 50% 67% 33% / 74% 66% 34% 26%;
-}
-#diegoc{
-  border-radius:21% 79% 66% 34% / 29% 70% 30% 71%;
-}
-#marcelar{
-  border-radius: 66% 34% 66% 34% / 29% 56% 44% 71%;
-}
-#pamelar{
-  border-radius:79% 21% 92% 8% / 26% 85% 15% 74%;
-}
-#estebanm{
-  border-radius:50% 50% 67% 33% / 74% 66% 34% 26%;
-}
-#marialuza{
-  border-radius: 47% 53% 26% 74% / 41% 30% 70% 59%;
-}
-#mattiast{
-  border-radius: 66% 34% 66% 34% / 29% 56% 44% 71%;
+.img-profile{
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.5s ease-in-out;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 0px;
+  background-color: #ffffff;
 }
 
 

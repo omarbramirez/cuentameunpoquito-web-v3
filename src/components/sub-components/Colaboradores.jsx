@@ -1,4 +1,4 @@
-import Example from '../../assets/images/Default.jpg';
+import Example from '../../assets/images/Default.png';
 
 const Coolaboradores = () => {
   return (
@@ -9,7 +9,7 @@ const Coolaboradores = () => {
         <ul>
           <li>
 
-          <img src={Example} alt="profile" className={`img`} id={`sandraa`} />
+          <img src={Example} alt="profile" className={`img-profile`}   />
         </li>
           <li>
             <strong>Sandra Araya:</strong> Editora y escritora.
@@ -22,39 +22,39 @@ const Coolaboradores = () => {
             guionista y realizadora audiovisual.
           </li> */}
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`diegoc`} />
+          <img src={Example} alt="profile" className={`img-profile`} />
           </li>
           <li>
             <strong>Diego Chamorro:</strong> Director de la Escuela de Pensamiento
             Crítico “Las babas del diablo”.
           </li>
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`marcelar`} />
+          <img src={Example} alt="profile" className={`img-profile`}  />
           </li>
           <li>
             <strong>Marcela Ribadeneira:</strong> Escritora, periodista, crítica
             de cine y artista visual.
           </li>
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`pamelar`} />
+          <img src={Example} alt="profile" className={`img-profile`}  />
           </li>
           <li>
             <strong>Pamela Ríos:</strong> Librera independiente.
           </li>
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`estebanm`} />
+          <img src={Example} alt="profile" className={`img-profile`}  />
           </li>
           <li>
             <strong>Esteban Mayorga:</strong> Investigador y docente.
           </li>
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`marialuza`} />
+          <img src={Example} alt="profile" className={`img-profile`}  />
           </li>
           <li>
             <strong>Marialuz Albuja Bayas:</strong> Escritora.
           </li>
           <li>
-          <img src={Example} alt="profile" className={`img`} id={`mattiast`} />
+          <img src={Example} alt="profile" className={`img-profile`}  />
           </li>
           <li>
             <strong>Mattias Tello:</strong> Docente, escritor y editor.
