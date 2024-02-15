@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react"
 import { useState} from "react"
 import Header from './sub-components/Header'
-import Startfooter from './sub-components/Startfooter'
+import Footer from './bases/Footer'
 import Welcome from './Welcome'
 import Home from './Home'
 
@@ -22,7 +22,7 @@ const Start = () => {
             <div className={`content start-content ${initialization ? 'is-initialized': ''}`}>
             <Header setInitialization={setInitialization} initialization={initialization}/>
             </div>
-            <Startfooter initialization={initialization}/>
+            <Footer/>
         </div>
     )
 }
