@@ -20,7 +20,7 @@ const SobreNosotros = () => {
         Cuéntame un PoQuito es un proyecto que busca fomentar la lectura,
         escritura y aprecio por la literatura en el Distrito Metropolitano de
         Quito, a través de un concurso de microcuento en el que se promueve la
-        participación activa de la comunidad Asimismo, pretende incentivar la
+        participación activa de la comunidad. Asimismo, pretende incentivar la
         apropiación del espacio público y la revitalización de la tradición
         literaria escrita, además de comprometerse a ser una herramienta que
         permita impulsar la creatividad, el diálogo intergeneracional y la
