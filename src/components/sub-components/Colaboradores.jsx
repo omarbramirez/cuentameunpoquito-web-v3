@@ -83,19 +83,19 @@ const Coolaboradores = () => {
           <img src={Eduardo} alt="profile" className={`img-profile`}  />
           </li>
           <li>
-            <strong>Eduardo Varas</strong>
+            <strong>Eduardo Varas:</strong> Escritor y periodista.
           </li>
           <li>
           <img src={Marcelo} alt="profile" className={`img-profile`}  />
           </li>
           <li>
-            <strong>Marcelo Cruz</strong>
+            <strong>Marcelo Cruz:</strong> Escritor y periodista.
           </li>
           <li>
           <img src={Fer} alt="profile" className={`img-profile`}  />
           </li>
           <li>
-            <strong>Fer Mejía</strong>
+            <strong>Fer Mejía:</strong> Escritora y periodista.
           </li>
         </ul>
       </div>
